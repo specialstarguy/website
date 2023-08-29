@@ -1,0 +1,37 @@
+.top-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/cape-town.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  font-size: x-large;
+}
+
+.top-div hr {
+  height: 20px;
+  width: 90%;
+  border: none;
+}
+
+.guy-container {
+  width: 95%; /* Adjust as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.guy-text {
+  width: 60%;
+  float: right;
+  font-family: cursive, sans-serif;
+}
+
+.guy-rule {
+  clear: both; /* Clear floats */
+  width: 100%;
+  margin-top: 10px; /* Add spacing above the rule */
+  ;
+}

@@ -1,0 +1,30 @@
+.water-backgrounded-div {
+  position: relative;
+  background-image: url(../images/bubbles.jpeg);
+  background-size: cover;
+  background-position: center top;
+  padding: 20px;
+  overflow: hidden;
+  color: white;
+}
+
+.hr-purple {
+  height: 20px;
+  background-color: darkorchid;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.hr-orange {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  background-color: coral;
+  margin: 0;
+  width: 100%;
+  margin-left: -20px;
+}
+
+.second-header {
+  white-space: pre-line;
+}
