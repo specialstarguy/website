@@ -105,30 +105,4 @@
   color: antiquewhite;
 }
 
-/* Your existing styles for larger screens */
 
-/* Mobile Styles */
-@media (max-width: 450px) {
-  .top-page-container {
-    background-size: cover; /* Restore original background size */
-  }
-
-  .second-index-page-container {
-    padding: 20px; /* Adjust padding for smaller screens */
-    font-size: 85%; /* Decrease font size for mobile */
-  }
-
-  .h-rulez {
-    width: 100%; /* Full width on smaller screens */
-    height: 8px; /* Smaller height for the rule */
-    margin: 0 auto 15px auto; /* Adjust margins */
-  }
-
-  .second-table th, .second-table td {
-    padding: 4px; /* Smaller padding for table cells */
-  }
-
-  .third-div-down_index {
-    background-size: cover; /* Restore original background size */
-  }
-}
